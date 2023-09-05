@@ -88,7 +88,7 @@ with open(PROGRESS_PATH, "w") as target_f:
                     language = f"{folder.title()}:"
                     number_progress = f"{done_boxes}/{total_counters}"
                     progress_bar = gen_progress_bar(PROGRESS_BAR_LENGTH, done_boxes, total_counters)
-                    line = f"{language:<{MAXIMUM_PADDING+2}} {number_progress:<5} {progress_bar}  \n"
+                    line = f"{language:<{MAXIMUM_PADDING+2}} {number_progress:<5} {progress_bar}\n"
                     target_f.write(line)
                     break
             except FileNotFoundError:
