@@ -1,6 +1,6 @@
 - Hello world (string manipulation, command line, inputs, read files)
   - [x] Hello world
-  - [ ] Hello world reading command line
+  - [x] Hello world reading command line
   - [ ] Hello world with input
   - [ ] Hello world to everyone in an external file
   - [ ] Read CSV into structs
@@ -8,7 +8,7 @@
 - Math and Algorithms
   - [x] Fizzbuzz
   - [x] Collatz
-  - [ ] Anagram checker
+  - [x] Anagram checker
   - [ ] Matrix operations (multiplication, vectors, determinants)
   - [ ] Linked Lists
   - [ ] Quadtree
