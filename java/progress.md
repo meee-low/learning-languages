@@ -24,7 +24,7 @@
   - [ ] Invert binary tree
   - [ ] BFS and DFS
   - [ ] A\*
-  - [ ] Implement Quaternions
+  - [x] Implement Quaternions
 - Games/Automata/Visualizations
   - [ ] Rule 0010
   - [ ] Snake
