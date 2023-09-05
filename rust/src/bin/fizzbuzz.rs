@@ -1,5 +1,10 @@
+use std::env;
+
 fn main() {
-    // fizzbuzzv1();
+    let args: Vec<String> = env::args().collect();
+    if args.len() > 1 {
+        fizzbuzzv1();
+    }
     fizzbuzzv2();
 }
 
