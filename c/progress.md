@@ -1,40 +1,39 @@
 - Hello world (string manipulation, command line, inputs, read files)
-    - [ ] Hello world
-    - [ ] Hello world reading command line
-    - [ ] Hello world with input
-    - [ ] Hello world to everyone in an external file
-    - [ ] Read CSV into structs
-    - [ ] Read JSON into structs
+  - [x] Hello world
+  - [ ] Hello world reading command line
+  - [ ] Hello world with input
+  - [ ] Hello world to everyone in an external file
+  - [ ] Read CSV into structs
+  - [ ] Read JSON into structs
 - Math and Algorithms
-    - [ ] Fizzbuzz
-    - [ ] Collatz
-    - [ ] Anagram checker
-    - [ ] Matrix operations (multiplication, vectors, determinants)
-    - [ ] Linked Lists
-    - [ ] Quadtree
-    - [ ] Rot13
-    - [ ] Factorial (recursive and non-recursive)
-    - [ ] Fibonacci (recursive and non-recursive)
-    - [ ] Prime Sieve
-    - [ ] Monte-Carlo dice simulation and plotting
-    - [ ] Fourier-Transform (Fast)
-    - [ ] KNP
-    - [ ] Levenstein distance
-    - [ ] Graph shortest path
-    - [ ] Invert binary tree
-    - [ ] BFS and DFS
-    - [ ] A\*
-    - [ ] Implement Quaternions
+  - [ ] Fizzbuzz
+  - [ ] Collatz
+  - [ ] Anagram checker
+  - [ ] Matrix operations (multiplication, vectors, determinants)
+  - [ ] Linked Lists
+  - [ ] Quadtree
+  - [ ] Rot13
+  - [ ] Factorial (recursive and non-recursive)
+  - [ ] Fibonacci (recursive and non-recursive)
+  - [ ] Prime Sieve
+  - [ ] Monte-Carlo dice simulation and plotting
+  - [ ] Fourier-Transform (Fast)
+  - [ ] KMP
+  - [ ] Levenshtein distance
+  - [ ] Graph: Dijkstra's Algorithm
+  - [ ] Invert binary tree
+  - [ ] BFS and DFS
+  - [ ] A\*
+  - [ ] Implement Quaternions
 - Games/Automata/Visualizations
-    - [ ] Rule 0010
-    - [ ] Snake
-    - [ ] Tic-tac-toe
-    - [ ] Game of Life
-    - [ ] Boids
-    - [ ] Adventure game from Json
+  - [ ] Rule 0010
+  - [ ] Snake
+  - [ ] Tic-tac-toe
+  - [ ] Game of Life
+  - [ ] Boids
+  - [ ] Adventure game from Json
 - Parsers and Language implementations
-    - [ ] Json parser
-    - [ ] CSV parser
-    - [ ] Brainf\*ck
-    - [ ] Deque
-
+  - [ ] Json parser
+  - [ ] CSV parser
+  - [ ] Brainf\*ck
+  - [ ] Deque

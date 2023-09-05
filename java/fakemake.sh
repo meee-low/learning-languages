@@ -11,7 +11,7 @@ compile_and_run() {
   fi
 
   mkdir $build_folder -p
-  compilation_flags="-Werror -deprecation -d $build_folder -classpath $build_folder -explain -unchecked"
+  compilation_flags="-Werror -deprecation -d $build_folder -classpath $build_folder"
 
   # Compile the Scala file
   echo javac "$compilation_flags $1"
