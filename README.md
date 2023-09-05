@@ -1,57 +1,28 @@
-This is a repo where I try to complete some simple programs in all of the following languages:
+# My programming languages explorations
 
-- Scala
-- Java
-- Go
-- Rust
-- Kotlin
-- Julia
-- Haskell
-- Bash
-- Python
-- TypeScript
-- C++
-- C#
-- Forth
+This is a repo where I try to complete some simple programs in a bunch of different languages with the goal of maybe learning them better. Getting familiarized with their syntax, data structures, features, libraries, patterns etc.
 
-with the goal of maybe learning them better!
-
-The problems are:
-
-- Hello world (string manipulation, command line, inputs, read files)
-  - Hello world
-  - Hello world reading command line
-  - Hello world with input
-  - Hello world to everyone in an external file
-  - Read CSV into structs
-- Math and Algorithms
-  - Fizzbuzz
-  - Anagram checker
-  - Matrix operations (multiplication, vectors, determinants)
-  - Linked Lists
-  - Quadtree
-  - Rot13
-  - Factorial (recursive and non-recursive)
-  - Fibonacci (recursive and non-recursive)
-  - KMP
-  - Levenshtein distance
-  - Graph: Dijkstra's Algorithm
-  - Invert binary tree
-  - BFS and DFS
-  - A\*
-- Games/Automata/Visualizations
-  - Rule 0010
-  - Snake
-  - Tic-tac-toe
-  - Game of Life
-  - Boids
-  - Adventure game from Json
-- Parsers and Language implementations
-  - Json parser
-  - CSV parser
-  - Brainf\*ck
-  - Deque
+For the repo where I put my challenges (LeetCode, Project Euler, Rosalind, CodeWars...) and other small personal projects, check: [github.com/meee-low/challenges](https://github.com/meee-low/challenges)
 
 ## Progress
 
--[ ] TODO
+<pre>
+Bash:        0/35  |-------------------------|  
+C:           1/35  |▒------------------------|  
+C#:          0/35  |-------------------------|  
+Cpp:         1/35  |▒------------------------|  
+Forth:       0/35  |-------------------------|  
+Go:          1/35  |▒------------------------|  
+Haskell:     0/35  |-------------------------|  
+Java:        8/35  |█████▒-------------------|  
+Julia:       3/35  |██-----------------------|  
+Kotlin:      0/35  |-------------------------|  
+Python:      5/35  |███▒---------------------|  
+Rust:        5/35  |███▒---------------------|  
+Scala:       1/35  |▒------------------------|  
+Typescript:  0/35  |-------------------------|  
+</pre>
+
+## Problems
+
+The full list of problems is in [progresstemplate.md](progresstemplate.md).
