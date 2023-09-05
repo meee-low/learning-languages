@@ -1,0 +1,40 @@
+- Hello world (string manipulation, command line, inputs, read files)
+    - [x] Hello world
+    - [x] Hello world reading command line
+    - [x] Hello world with input
+    - [x] Hello world to everyone in an external file
+    - [x] Read CSV into structs
+    - [ ] Read JSON into structs
+- Math and Algorithms
+    - [ ] Fizzbuzz
+    - [ ] Collatz
+    - [ ] Anagram checker
+    - [ ] Matrix operations (multiplication, vectors, determinants)
+    - [ ] Linked Lists
+    - [ ] Quadtree
+    - [ ] Rot13
+    - [ ] Factorial (recursive and non-recursive)
+    - [ ] Fibonacci (recursive and non-recursive)
+    - [ ] Prime Sieve
+    - [ ] Monte-Carlo dice simulation and plotting
+    - [ ] Fourier-Transform (Fast)
+    - [ ] KNP
+    - [ ] Levenstein distance
+    - [ ] Graph shortest path
+    - [ ] Invert binary tree
+    - [ ] BFS and DFS
+    - [ ] A\*
+    - [ ] Implement Quaternions
+- Games/Automata/Visualizations
+    - [ ] Rule 0010
+    - [ ] Snake
+    - [ ] Tic-tac-toe
+    - [ ] Game of Life
+    - [ ] Boids
+    - [ ] Adventure game from Json
+- Parsers and Language implementations
+    - [ ] Json parser
+    - [ ] CSV parser
+    - [ ] Brainf\*ck
+    - [ ] Deque
+
