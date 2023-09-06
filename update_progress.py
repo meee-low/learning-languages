@@ -11,6 +11,7 @@ SKELETON_PATH = "README.md"
 PROGRESS_PATH = "progress_summary.md"
 TMP_PATH = ".tmp.md"
 
+
 def count_progress_file(lines: TextIO) -> Counter:
     lines_trimmed = [line.strip() for line in lines]
     counter = Counter()
@@ -31,7 +32,10 @@ def count_progress_file(lines: TextIO) -> Counter:
 
 
 def gen_progress_bar(size: int, progress: float, maximum: float, minimum: float = 0) -> str:
-    special_characters = "-░▒█"
+    # special_characters = "-░▒▓█"
+    special_characters = ".:-=+*#%@█"
+    # special_characters = "▁▂▃▄▅▆▇█"
+    # special_characters = "-▏▎▍▌▋▊▉█"
 
     normalized_progress = (progress - minimum)/maximum
     in_units = normalized_progress * size
@@ -42,7 +46,7 @@ def gen_progress_bar(size: int, progress: float, maximum: float, minimum: float 
 
     result = whole + partial + empty
 
-    return f"|{result}|"
+    return f"[{result}]"
 
 
 LANGUAGE_FOLDERS = sorted(["bash",
@@ -85,7 +89,7 @@ with open(PROGRESS_PATH, "w") as target_f:
                     done_boxes = box_counters.get("- [x]", 0)
                     total_counters = sum(v for v in box_counters.values())
 
-                    language = f"{folder.title()}:"
+                    language = f"{folder.title()}"
                     number_progress = f"{done_boxes}/{total_counters}"
                     progress_bar = gen_progress_bar(PROGRESS_BAR_LENGTH, done_boxes, total_counters)
                     line = f"{language:<{MAXIMUM_PADDING+2}} {number_progress:<5} {progress_bar}\n"
